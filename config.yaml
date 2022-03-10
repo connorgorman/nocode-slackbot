@@ -1,0 +1,8 @@
+slackAppToken:
+slackBotToken:
+demoDir: demos
+workflows:
+  - name: test
+    file: test.json
+  - name: test2
+    file: test.json
