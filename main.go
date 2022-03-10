@@ -44,8 +44,8 @@ func (c *Config) Validate() error {
 func main() {
 	var configFile string
 	cmd := &cobra.Command{
-		Use:   "slackbot-demo",
-		Short: "A no-code way to make a demo of a slackbot",
+		Use:   "nocode-slackbot",
+		Short: "A nocode way to make a slackbot",
 		RunE: func(c *cobra.Command, args []string) error {
 			data, err := os.ReadFile(configFile)
 			if err != nil {
